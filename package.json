@@ -1,6 +1,17 @@
 {
   "name": "node-todo-yxr",
-  "version": "0.0.1",
+  "bin": {
+    "todo": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "version": "0.0.5",
   "main": "index.js",
-  "license": "MIT"
+  "keywords": ["nodejs","commander","inquirer"],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "inquirer": "7.0.0"
+  }
 }
