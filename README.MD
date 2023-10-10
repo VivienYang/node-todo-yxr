@@ -9,7 +9,7 @@
 
 * 使用方法：todo
 
-* 使用帮助todo --h
+* 查看使用帮助：todo --h
 
 * node版本：node 16.13.0
 

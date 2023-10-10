@@ -25,8 +25,8 @@ const db={
     return new Promise((resolve,reject)=>{
       fs.writeFile(file, JSON.stringify(list)+'\n', (err) => {
         if (err) return reject(err);
-        // console.log('The task has been saved!');
-        // console.log(JSON.stringify(list))
+        console.log('The task has been saved!');
+        console.log(JSON.stringify(list))
         resolve()
       });       
     })
